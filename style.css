@@ -1,0 +1,38 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    width: 215px;
+    height: 32px;
+    display: flex;
+    
+}
+
+
+header {
+    color: #0F0F0F;
+    text-align: center;
+    font-family: Clash Display Variable;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 78px;
+    text-transform: uppercase;
+}
+header .heading {
+    text-align: center;
+}
+.nav-button {
+    display: flex;
+    height: 50px;
+    padding: 20px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 72px;
+    background: var(--primary, #0F0F0F);
+}
